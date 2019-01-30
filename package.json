@@ -1,0 +1,21 @@
+{
+  "name": "center-svgs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "parcel build src/index.js",
+    "watch": "parcel watch src/index.js",
+    "serve": "parcel serve src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
+  }
+}

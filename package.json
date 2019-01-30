@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "parcel build src/index.html -d docs",
+    "build": "parcel build src/index.html -d docs --public-url ./",
     "watch": "parcel watch src/index.html",
     "serve": "parcel serve src/index.html"
   },
